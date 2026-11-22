@@ -1,0 +1,26 @@
+dataset:
+  case_dir: data/totalsegmentator_example
+  ct_file: example_ct_sm.nii.gz
+  segmentation_file: example_seg.nii.gz
+acquisition:
+  plane: axial
+  slice_index: null
+  lateral_extent_mm: 120.0
+  depth_mm: 120.0
+  image_size: 128
+  scan_lines: 128
+  max_scatterers: 6000
+  center_frequency_hz: 5000000.0
+  sampling_frequency_hz: 40000000.0
+  element_count: 64
+  element_width_mm: 0.27
+  element_height_mm: 5.0
+  element_kerf_mm: 0.03
+  transmit_focus_mm: 50.0
+  receive_focus_mm: 50.0
+  dynamic_range_db: 60.0
+  imaging_plane: axial
+backend:
+  name: fieldii_matlab
+output_dir: outputs/fieldii_matlab
+seed: 7
